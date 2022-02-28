@@ -492,7 +492,7 @@
     <panel_attributes>GeneralSim
 --
 bg=orange
-layer=0</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -506,7 +506,7 @@ layer=0</panel_attributes>
     <panel_attributes>ShoppingSim
 --
 bg=yellow
-layer=0</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
