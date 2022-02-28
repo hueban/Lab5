@@ -350,7 +350,7 @@
 --
 - queue(0...*) : Event
 --
- doEvent(event : Event) : void
+~ doEvent(event : Event) : void
 + addToQueue(event : Event) : void</panel_attributes>
     <additional_attributes/>
   </element>
@@ -364,7 +364,7 @@
     </coordinates>
     <panel_attributes>Customer
 --
- id : int
+~ id : int
 --</panel_attributes>
     <additional_attributes/>
   </element>
