@@ -1,7 +1,13 @@
 .vscode
 /bin
 *.zip
-*.png
-*.jpg
 *.pdf
 *.class
+
+
+
+
+*.png
+*.jpg
+*.svg
+*.bmp
