@@ -12,7 +12,7 @@ public class ShoppingState {
     protected int N; // antalet kunder i affären
     protected int M; // max kunder i affären
     protected float S; // stängningstid
-    protected long f; // seed
+    protected long f; // seed/frö
     protected int payingCustomers;
     protected int lostCustomers;
     protected float unusedCashRegisterTime;
