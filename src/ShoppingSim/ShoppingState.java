@@ -9,10 +9,10 @@ public class ShoppingState {
     protected ShopRandom shopRandom;
     protected PayRandom paylRandom;
 
-    protected int N;
-    protected int M;
-    protected float S;
-    protected long f;
+    protected int N; // antalet kunder i affären
+    protected int M; // max kunder i affären
+    protected float S; // stängningstid
+    protected long f; // seed
     protected int payingCustomers;
     protected int lostCustomers;
     protected float unusedCashRegisterTime;
