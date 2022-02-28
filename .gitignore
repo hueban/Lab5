@@ -1,10 +1,10 @@
 .vscode
+
 /bin
-*.zip
-*.pdf
 *.class
 
-
+*.zip
+*.pdf
 
 
 *.png
