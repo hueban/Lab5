@@ -30,7 +30,7 @@
     <panel_attributes>State
 --
 # running : boolean
-# current_time : float
+# currentTime : float
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -68,45 +68,34 @@
     <id>Relation</id>
     <coordinates>
       <x>890</x>
-      <y>310</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>890</x>
       <y>160</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>890</x>
       <y>160</y>
-      <w>240</w>
+      <w>230</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;220.0;90.0</additional_attributes>
+    <additional_attributes>210.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
+      <x>580</x>
       <y>160</y>
-      <w>320</w>
+      <w>340</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>300.0;10.0;10.0;120.0</additional_attributes>
+    <additional_attributes>10.0;120.0;320.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -189,16 +178,16 @@
     </coordinates>
     <panel_attributes>ShoppingState
 --
-+ customerFactory : CustomerFactory
-+ shoppingQueue : ShoppingQueue
-+ N : int
-+ M : int
-+ S : int
-+ f : long
-+ payingCustomers : int
-+ lostCustomers : int
-+ unusedCashRegisterTime : float
-+ queueTime : float
+# customerFactory : CustomerFactory
+# shoppingQueue : ShoppingQueue
+# N : int
+# M : int
+# S : int
+# f : long
+# payingCustomers : int
+# lostCustomers : int
+# unusedCashRegisterTime : float
+# queueTime : float
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -225,7 +214,7 @@
       <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;140.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -243,17 +232,6 @@
 
 </panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>580</x>
-      <y>780</y>
-      <w>30</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -309,12 +287,12 @@
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>680</y>
+      <y>710</y>
       <w>90</w>
-      <h>180</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;140.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -322,10 +300,10 @@
       <x>400</x>
       <y>670</y>
       <w>90</w>
-      <h>70</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;60.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -333,10 +311,10 @@
       <x>400</x>
       <y>610</y>
       <w>90</w>
-      <h>70</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -402,17 +380,6 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>580</x>
-      <y>920</y>
-      <w>30</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>290</x>
@@ -469,17 +436,6 @@
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>940</x>
-      <y>310</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
@@ -610,5 +566,49 @@ layer=-1</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>920</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>780</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>310</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>310</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
