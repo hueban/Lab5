@@ -182,7 +182,7 @@
 # shoppingQueue : ShoppingQueue
 # N : int
 # M : int
-# S : int
+# S : float
 # f : long
 # payingCustomers : int
 # lostCustomers : int
@@ -194,14 +194,14 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>920</y>
-      <w>130</w>
+      <x>240</x>
+      <y>930</y>
+      <w>170</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>ShoppingQueue
 --
-- queue(0...*) : int
+- queue(0...*) : Customer
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -211,10 +211,10 @@
       <x>400</x>
       <y>780</y>
       <w>90</w>
-      <h>160</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;140.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -610,5 +610,16 @@ layer=-1</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>950</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>140.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
