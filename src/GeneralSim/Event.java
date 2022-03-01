@@ -8,39 +8,3 @@ public abstract class Event {
     protected abstract String getEventName(); 
     
 }
-
-
-
-
-class StartEvent extends Event {
-
-    @Override
-    protected void doEvent(State state) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-}
-
-
-class EndEvent extends Event {
-
-    @Override
-    protected  void doEvent(State state) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-    
-}
