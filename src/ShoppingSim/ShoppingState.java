@@ -1,8 +1,9 @@
 package ShoppingSim;
 
+import GeneralSim.State;
 import ShoppingSim.CustomerThings.CustomerFactory;
 
-public class ShoppingState {
+public class ShoppingState extends State {
     protected CustomerFactory customerFactory;
     protected ShoppingQueue shoppingqueue;
     protected ArrivalRandom arrivalRandom;
@@ -13,6 +14,7 @@ public class ShoppingState {
     protected int M; // max kunder i affären
     protected float S; // stängningstid
     protected long f; // seed/frö
+    
     protected int payingCustomers;
     protected int lostCustomers;
     protected float unusedCashRegisterTime;
