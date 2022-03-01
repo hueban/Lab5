@@ -1,20 +1,19 @@
 package ShoppingSim.Events;
 
 import GeneralSim.Event;
+import GeneralSim.StartEvent;
 import GeneralSim.State;
 
-public class OpenEvent extends Event {
+public class OpenEvent extends StartEvent {
 
     @Override
     protected void doEvent(State state) {
         // TODO Auto-generated method stub
-        
     }
 
     @Override
     protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "OpenEvent";
     }
     
 }
@@ -30,8 +29,7 @@ class ArrivalEvent extends Event {
 
     @Override
     protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "ArrivalEvent";
     }
     
 }
@@ -47,8 +45,7 @@ class ShopEvent extends Event {
 
     @Override
     protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "ShopEvent";
     }
     
 }
@@ -64,8 +61,7 @@ class PayEvent extends Event {
 
     @Override
     protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "PayEvent";
     }
     
 }
@@ -76,13 +72,13 @@ class CloseEvent extends Event {
     @Override
     protected void doEvent(State state) {
         // TODO Auto-generated method stub
-        
+
+
     }
 
     @Override
     protected String getEventName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "CloseEvent";
     }
     
 }
